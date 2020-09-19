@@ -1,0 +1,105 @@
+
+.contenedor{
+    height:900px; 
+    display: flex;
+    flex-direction: column;
+}
+
+.izq-1, .der-1, .centro-1 {
+    color: white;
+    width: 32%;
+    height: 100%;
+    text-align: left;
+    align-items: flex-start;
+    justify-content: start;
+    padding: 5px;
+    border-radius: 8px;
+    border: 2px solid black;
+}
+
+.izq-1{
+    background-color: rgb(66, 65, 65);
+}
+
+.der-1{
+    background-color:orange;
+}
+
+.centro-1{
+    background-color:turquoise;
+}
+
+
+.izq-2{
+    background-color: green;
+    width: 66.7%;
+    height: 100%;
+    margin-right: 0.3%;
+    border-radius: 8px;
+    margin-left: 2px;
+    padding-top: 5px;
+    padding-left: 5px;
+    border: 2px solid black;
+}
+
+.der-2{
+    background-color:brown;
+    width: 32.9%;
+    border-radius: 8px;
+    height: 100%;
+    margin-right: 2px;
+    margin-left: 0%;
+    padding-top: 5px;
+    padding-left: 5px;
+    border: 2px solid black;
+}
+
+.centro2{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    height: 30%;
+    margin: 5px;
+    padding: 3px;
+    color: white;
+}
+
+
+
+.centro1 {
+    display: flex;
+    flex-direction: row;
+    padding: 3px;
+    justify-content: space-around;
+    height: 30%;
+    margin: 5px;
+}
+
+.pie{
+    display: flex;
+    height: 15%;
+    color: white;
+    background-color: rgb(56, 195, 250);
+    margin: 5px 10px;
+    margin-left: 5px;
+    border-radius: 8px;
+    border: 2px solid black;
+    align-items:center;
+    justify-content: flex-end;
+    text-align: left;
+    padding-bottom: 5px;
+    padding-right: 5px;
+}
+
+
+.elemento{
+    border-radius: 8px;
+    background-color: blue;
+    height: 30%;
+    width: 30%;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+}
